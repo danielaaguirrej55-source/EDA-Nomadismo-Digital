@@ -4,9 +4,15 @@
 
 ### 🏦 Autores del proyecto
 
-**Daniela Aguirre**: [LinkedIn] 
-**Alejandro Balaguer**: [LinkedIn] 
-**Juan F. Cía**: [LinkedIn](https://www.linkedin.com/in/juanfcia/) / [GitHub] (https://github.com/juanfcia)
+**Daniela Aguirre**: 
+1. [LinkedIn] 
+2. [GitHub] 
+**Alejandro Balaguer**: 
+1. [LinkedIn] 
+2. [GitHub] 
+**Juan F. Cía**: 
+1. [LinkedIn](https://www.linkedin.com/in/juanfcia/)
+2. [GitHub] (https://github.com/juanfcia)
 
 ### 📌 Descripción del proyecto
 
