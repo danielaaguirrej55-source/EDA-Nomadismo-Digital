@@ -7,9 +7,11 @@
 **Daniela Aguirre**: 
 1. [LinkedIn] 
 2. [GitHub] 
+
 **Alejandro Balaguer**: 
 1. [LinkedIn] 
 2. [GitHub] 
+
 **Juan F. Cía**: 
 1. [LinkedIn](https://www.linkedin.com/in/juanfcia/)
 2. [GitHub] (https://github.com/juanfcia)
@@ -45,18 +47,18 @@ A través de este EDA, buscamos resolver interrogantes como:
 
 El repositorio cuenta con los siguientes archivos en su nivel principal:
 
-**README.md** - Descripción del proyecto en formato markdown
-**main.ipynb** - Versión final y limpia de vuestro notebook con el EDA completo
-**Memoria.pdf** - Documento técnico con el análisis completo
-**Presentacion.pdf** - Diapositivas utilizadas en el vídeo
-**Carpeta src/** - Contiene todos los archivos auxiliares del proyecto
+1. **README.md** - Descripción del proyecto en formato markdown
+2. **main.ipynb** - Versión final y limpia de vuestro notebook con el EDA completo
+3. **Memoria.pdf** - Documento técnico con el análisis completo
+4. **Presentacion.pdf** - Diapositivas utilizadas en el vídeo
+5. **Carpeta src/** - Contiene todos los archivos auxiliares del proyecto
 
 La carpeta src/ contiene a su vez:
 
-**src/data/** - Todos los archivos de datos utilizados en el análisis
-**src/img/** - Imágenes necesarias o generadas para el proyecto
-**src/notebooks/** - Notebooks de desarrollo y pruebas
-**src/utils/** - Código auxiliar reutilizable
+1. **src/data/** - Todos los archivos de datos utilizados en el análisis
+2. **src/img/** - Imágenes necesarias o generadas para el proyecto
+3. **src/notebooks/** - Notebooks de desarrollo y pruebas
+4. **src/utils/** - Código auxiliar reutilizable
 
 ### 🛠️ Tecnologías utilizadas
 
