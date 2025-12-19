@@ -1,4 +1,4 @@
-## 🌍 Análisis del Coste de Vida Global para Nómadas Digitales
+## 🌍 Análisis del coste de vida global para nómadas digitales
 
 *Este proyecto se encuentra actualmente en fase de pensamiento.*
 
