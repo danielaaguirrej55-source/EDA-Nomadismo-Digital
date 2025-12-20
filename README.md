@@ -14,7 +14,7 @@
 
 **Juan F. Cía**: 
 1. [LinkedIn](https://www.linkedin.com/in/juanfcia/)
-2. [GitHub] (https://github.com/juanfcia)
+2. [GitHub](https://github.com/juanfcia)
 
 ### 📌 Descripción del proyecto
 
