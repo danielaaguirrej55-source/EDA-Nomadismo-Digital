@@ -1,3 +1,5 @@
+![Proyecto EDA: Nomadismo digital y coste de vida](./src/img/EDA-nomadismo-digital.jpg)
+
 ## 🌍 Análisis del coste de vida global para nómadas digitales
 
 *Este proyecto se encuentra actualmente en fase de pensamiento.*
