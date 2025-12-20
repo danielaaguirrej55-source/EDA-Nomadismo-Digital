@@ -29,7 +29,7 @@ Los datos fuente provienen de [Kaggle](https://www.kaggle.com/datasets/mvieira10
 - Costes de alimentación (restaurantes y mercados).
 - Gastos de transporte y ocio.
 
-Inicialmente puede ser un único reporsitorio de datos aunque valoramos ampliarlos con más fuentes y crear un repositorio más amplio que ayude a resolver las preguntas clave de negocio. 
+Inicialmente puede ser un único reporsitorio de datos aunque valoramos ampliarlos con más fuentes y crear un repositorio más amplio que ayude a resolver las preguntas clave de negocio. Entre ellos valoramos este de [Movingto] (https://www.movingto.com/digital-nomad-index).
 
 ### 🚀 Preguntas clave a responder
 
