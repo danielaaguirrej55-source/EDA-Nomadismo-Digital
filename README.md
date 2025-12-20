@@ -70,52 +70,67 @@ La carpeta src/ contiene a su vez:
 
 ### 🎲 Descripción de las variables del dataset
 
-| Columna | Descripción                                                                                             |
-| ------- | ------------------------------------------------------------------------------------------------------- |
-| city    | Nombre de la ciudad                                                                                     |
-| country | Nombre del país                                                                                         |
-| x1      | Comida en restaurante económico (USD)                                                                   |
-| x2      | Comida para 2 personas en restaurante de gama media, tres platos (USD)                                  |
-| x3      | Menú McMeal en McDonald’s (o menú equivalente) (USD)                                                    |
-| x4      | Cerveza nacional (0,5 litros de barril, en restaurante) (USD)                                           |
-| x5      | Cerveza importada (botella de 0,33 litros, en restaurante) (USD)                                        |
-| x6      | Cappuccino (normal, en restaurante) (USD)                                                               |
-| x7      | Coca-Cola / Pepsi (botella de 0,33 litros, en restaurante) (USD)                                        |
-| x8      | Agua (botella de 0,33 litros, en restaurante) (USD)                                                     |
-| x9      | Leche (normal), 1 litro (USD)                                                                           |
-| x10     | Barra de pan blanco fresco (500 g) (USD)                                                                |
-| x11     | Arroz blanco (1 kg) (USD)                                                                               |
-| x12     | Huevos (docena) (USD)                                                                                   |
-| x13     | Queso local (1 kg) (USD)                                                                                |
-| x14     | Pechugas de pollo (1 kg) (USD)                                                                          |
-| x15     | Carne de ternera (1 kg) o carne roja equivalente (USD)                                                  |
-| x16     | Manzanas (1 kg) (USD)                                                                                   |
-| x17     | Plátanos (1 kg) (USD)                                                                                   |
-| x18     | Naranjas (1 kg) (USD)                                                                                   |
-| x19     | Tomates (1 kg) (USD)                                                                                    |
-| x20     | Patatas (1 kg) (USD)                                                                                    |
-| x21     | Cebollas (1 kg) (USD)                                                                                   |
-| x22     | Lechuga (1 unidad) (USD)                                                                                |
-| x23     | Agua (botella de 1,5 litros, en supermercado) (USD)                                                     |
-| x24     | Botella de vino de gama media (en supermercado) (USD)                                                   |
-| x25     | Cerveza nacional (botella de 0,5 litros, en supermercado) (USD)                                         |
-| x26     | Cerveza importada (botella de 0,33 litros, en supermercado) (USD)                                       |
-| x27     | Paquete de 20 cigarrillos (Marlboro) (USD)                                                              |
-| x28     | Billete de transporte público (solo ida) (USD)                                                          |
-| x29     | Abono mensual de transporte (precio normal) (USD)                                                       |
-| x30     | Bajada de bandera del taxi (tarifa normal) (USD)                                                        |
-| x31     | Taxi por kilómetro (tarifa normal) (USD)                                                                |
-| x32     | Taxi, 1 hora de espera (tarifa normal) (USD)                                                            |
-| x33     | Gasolina (1 litro) (USD)                                                                                |
-| x34     | Volkswagen Golf 1.4 90 KW Trendline (o coche nuevo equivalente) (USD)                                   |
-| x35     | Toyota Corolla Sedán 1.6l 97kW Comfort (o coche nuevo equivalente) (USD)                                |
-| x36     | Gastos básicos (electricidad, calefacción, refrigeración, agua, basura) para apartamento de 85 m² (USD) |
-| x37     | 1 minuto de tarifa móvil prepago local (sin descuentos ni planes) (USD)                                 |
-| x38     | Internet (60 Mbps o más, datos ilimitados, cable/ADSL) (USD)                                            |
-| x39     | Gimnasio, cuota mensual para 1 adulto (USD)                                                             |
-| x40     | Alquiler de pista de tenis (1 hora en fin de semana) (USD)                                              |
-| x41     | Cine, estreno internacional, 1 entrada (USD)                                                            |
-| x42     | Guardería o preescolar privado, jornada co                                                              |
+| Columna      | Descripción                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------ |
+| city         | Nombre de la ciudad                                                                                                |
+| country      | Nombre del país                                                                                                    |
+| x1           | Comida en restaurante económico (USD)                                                                              |
+| x2           | Comida para 2 personas en restaurante de gama media, tres platos (USD)                                             |
+| x3           | Menú McMeal en McDonald’s (o menú equivalente) (USD)                                                               |
+| x4           | Cerveza nacional (0,5 litros de barril, en restaurante) (USD)                                                      |
+| x5           | Cerveza importada (botella de 0,33 litros, en restaurante) (USD)                                                   |
+| x6           | Cappuccino (normal, en restaurante) (USD)                                                                          |
+| x7           | Coca-Cola / Pepsi (botella de 0,33 litros, en restaurante) (USD)                                                   |
+| x8           | Agua (botella de 0,33 litros, en restaurante) (USD)                                                                |
+| x9           | Leche (normal), 1 litro (USD)                                                                                      |
+| x10          | Barra de pan blanco fresco (500 g) (USD)                                                                           |
+| x11          | Arroz blanco (1 kg) (USD)                                                                                          |
+| x12          | Huevos (docena) (USD)                                                                                              |
+| x13          | Queso local (1 kg) (USD)                                                                                           |
+| x14          | Pechugas de pollo (1 kg) (USD)                                                                                     |
+| x15          | Carne de ternera (1 kg) o carne roja equivalente (USD)                                                             |
+| x16          | Manzanas (1 kg) (USD)                                                                                              |
+| x17          | Plátanos (1 kg) (USD)                                                                                              |
+| x18          | Naranjas (1 kg) (USD)                                                                                              |
+| x19          | Tomates (1 kg) (USD)                                                                                               |
+| x20          | Patatas (1 kg) (USD)                                                                                               |
+| x21          | Cebollas (1 kg) (USD)                                                                                              |
+| x22          | Lechuga (1 unidad) (USD)                                                                                           |
+| x23          | Agua (botella de 1,5 litros, en supermercado) (USD)                                                                |
+| x24          | Botella de vino de gama media (en supermercado) (USD)                                                              |
+| x25          | Cerveza nacional (botella de 0,5 litros, en supermercado) (USD)                                                    |
+| x26          | Cerveza importada (botella de 0,33 litros, en supermercado) (USD)                                                  |
+| x27          | Paquete de 20 cigarrillos (Marlboro) (USD)                                                                         |
+| x28          | Billete de transporte público (solo ida) (USD)                                                                     |
+| x29          | Abono mensual de transporte (precio normal) (USD)                                                                  |
+| x30          | Bajada de bandera del taxi (tarifa normal) (USD)                                                                   |
+| x31          | Taxi por kilómetro (tarifa normal) (USD)                                                                           |
+| x32          | Taxi, 1 hora de espera (tarifa normal) (USD)                                                                       |
+| x33          | Gasolina (1 litro) (USD)                                                                                           |
+| x34          | Volkswagen Golf 1.4 90 KW Trendline (o coche nuevo equivalente) (USD)                                              |
+| x35          | Toyota Corolla Sedán 1.6l 97kW Comfort (o coche nuevo equivalente) (USD)                                           |
+| x36          | Gastos básicos (electricidad, calefacción, refrigeración, agua, basura) para apartamento de 85 m² (USD)            |
+| x37          | 1 minuto de tarifa móvil prepago local (sin descuentos ni planes) (USD)                                            |
+| x38          | Internet (60 Mbps o más, datos ilimitados, cable/ADSL) (USD)                                                       |
+| x39          | Gimnasio, cuota mensual para 1 adulto (USD)                                                                        |
+| x40          | Alquiler de pista de tenis (1 hora en fin de semana) (USD)                                                         |
+| x41          | Cine, estreno internacional, 1 entrada (USD)                                                                       |
+| x42          | Guardería o preescolar privado, jornada completa, mensual por 1 niño (USD)                                         |
+| x43          | Colegio internacional de primaria, coste anual por 1 niño (USD)                                                    |
+| x44          | 1 par de vaqueros (Levis 501 o similar) (USD)                                                                      |
+| x45          | Vestido de verano en tienda de cadena (Zara, H&M o similar) (USD)                                                  |
+| x46          | 1 par de zapatillas Nike para correr (gama media) (USD)                                                            |
+| x47          | 1 par de zapatos de piel de vestir para hombre (USD)                                                               |
+| x48          | Apartamento (1 dormitorio) en el centro de la ciudad (USD)                                                         |
+| x49          | Apartamento (1 dormitorio) fuera del centro (USD)                                                                  |
+| x50          | Apartamento (3 dormitorios) en el centro de la ciudad (USD)                                                        |
+| x51          | Apartamento (3 dormitorios) fuera del centro (USD)                                                                 |
+| x52          | Precio por metro cuadrado para comprar apartamento en el centro (USD)                                              |
+| x53          | Precio por metro cuadrado para comprar apartamento fuera del centro (USD)                                          |
+| x54          | Salario mensual neto medio (después de impuestos) (USD)                                                            |
+| x55          | Tipo de interés hipotecario anual (%), fijo a 20 años                                                              |
+| data_quality | 0 si Numbeo considera que se necesitan más colaboradores para mejorar la calidad de los datos; 1 en caso contrario |
+                                                             |
 
 
 ### 🎯 Principales conclusiones: resumen de hallazgos clave
