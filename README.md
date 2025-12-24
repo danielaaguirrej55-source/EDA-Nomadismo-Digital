@@ -166,11 +166,11 @@ Variables dataset Cost of Livin (./src/data/cost-of-living.csv) / [Kaggle](https
 Muestra de variables y resultados del dataset (.src/data/digital-nomad-index-2024.csv) en [Movingto](https://www.movingto.com/digital-nomad-index). 
 
 | Rank | Country | Overall Score | Internet Speed | Cost of Living | Safety | Visa Ease | Quality of Life | Taxes | Tax-free Period |
-| ------------ | 
-1 | Portugal | 92 | 90 | 85 | 95 | 95 | 95 | NHR | 20% | 10 years |
-2 | Estonia | 91 | 95 | 75 | 90 | 98 | 92 | 0-20% | 183days/year |
-3 | Georgia | 90 | 85 | 88 | 82 | 100 | 80 | 1% | 183days/year |
-4 | Spain | 89 | 88 | 80 | 92 | 92 | 94 | 24% | 183 days/year |
-5 | Thailand | 88 | 85 | 95 | 80 | 90 | 88 | 0-35% | 183 days/year |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Portugal | 92 | 90 | 85 | 95 | 95 | 95 | NHR | 20% | 10 years |
+| 2 | Estonia | 91 | 95 | 75 | 90 | 98 | 92 | 0-20% | 183days/year |
+| 3 | Georgia | 90 | 85 | 88 | 82 | 100 | 80 | 1% | 183days/year |
+| 4 | Spain | 89 | 88 | 80 | 92 | 92 | 94 | 24% | 183 days/year |
+| 5 | Thailand | 88 | 85 | 95 | 80 | 90 | 88 | 0-35% | 183 days/year |
 
 ### 🎯 Principales conclusiones: resumen de hallazgos clave
