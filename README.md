@@ -162,7 +162,6 @@ Variables dataset Cost of Livin (./src/data/cost-of-living.csv) / [Kaggle](https
 | x54          | Salario mensual neto medio (después de impuestos) (USD)                                                            |
 | x55          | Tipo de interés hipotecario anual (%), fijo a 20 años                                                              |
 | data_quality | 0 si Numbeo considera que se necesitan más colaboradores para mejorar la calidad de los datos; 1 en caso contrario |
-                                                             |
 
 Muestra de variables y resultados del dataset (.src/data/digital-nomad-index-2024.csv) en [Movingto](https://www.movingto.com/digital-nomad-index). 
 
