@@ -1,13 +1,13 @@
 ![Proyecto EDA: Nomadismo digital y coste de vida](./src/img/EDA-nomadismo-digital.jpg)
 
-## 🌍 Nómadas digitales: análisis sobre el coste de vida
+## 🌍 Nomadismo digital: análisis sobre el coste de vida
 
 *Este proyecto se encuentra actualmente en fase de pensamiento.*
 
 ### 🏦 Autores del proyecto
 
 **Daniela Aguirre**: 
-1. [LinkedIn] 
+1. [LinkedIn] (https://www.linkedin.com/in/alicia-aguirre-5b5a57188/) 
 2. [GitHub] 
 
 **Alejandro Balaguer**: 
@@ -22,7 +22,7 @@
 
 Este repositorio contiene un Análisis Exploratorio de Datos (EDA) exhaustivo sobre el conjunto de datos **Global Cost of Living**, con un enfoque específico en el fenómeno del **Nomadismo Digital**. 
 
-El objetivo es identificar ciudades y países que ofrecen el mejor equilibrio entre calidad de vida y asequibilidad para profesionales remotos. En un mundo donde la oficina es cualquier lugar con Wi-Fi, entender las métricas de gasto mensual (vivienda, alimentación, transporte) es crucial para la toma de decisiones estratégicas de movilidad.
+El objetivo es identificar ciudades y países que ofrecen el mejor equilibrio entre calidad de vida y asequibilidad para profesionales remotos. En un mundo donde la oficina es cualquier lugar con Wi-Fi, entender las métricas de gasto mensual (vivienda, alimentación, transporte y servicios) es crucial para la toma de decisiones estratégicas de movilidad.
 
 ### 📊 Sobre el dataset
 
@@ -31,7 +31,20 @@ Los datos fuente provienen de [Kaggle](https://www.kaggle.com/datasets/mvieira10
 - Costes de alimentación (restaurantes y mercados).
 - Gastos de transporte y ocio.
 
-Inicialmente puede ser un único reporsitorio de datos aunque valoramos ampliarlos con más fuentes y crear un repositorio más amplio que ayude a resolver las preguntas clave de negocio. Entre ellos valoramos este de [Movingto](https://www.movingto.com/digital-nomad-index).
+Inicialmente puede ser un único reporsitorio de datos aunque valoramos ampliarlos con más fuentes y crear un repositorio más amplio que ayude a resolver las preguntas clave de negocio. Entre ellos valoraremos los siguientes:
+
+·[Movingto](https://www.movingto.com/digital-nomad-index) recopila informacion sobre Top Countries for Digital Nomads 2025, a los cuales solo detallan un ranking de 40 países, el dataset incluye:
+- Internet Speed.
+- Costo de vida.
+- Puntuación de seguridad.
+- "Visa Ease" es básicamente una puntuación de qué tan fácil es para un nómada digital quedarse legalmente en el país.
+- Calidad de vida.
+- Impuestos
+
+·[Circleloop](https://www.circleloop.com/nomadindex/?utm_source) Estos dan un “ranking” rápido así, siendo que la informacion que nos serìa de utilidad es:
+- Broadband Cost: coste del plan de internet fijo (suele ser precio mensual promedio; en la tabla aparece con moneda £/€ según el sitio).
+- Monthly Rent: renta mensual típica (normalmente un promedio/estimación de alquiler)
+- Remote Jobs Searches, (generalmente un indicador de interés/demanda)
 
 ### 🚀 Preguntas clave a responder
 
@@ -41,7 +54,7 @@ A través de este EDA, buscamos resolver interrogantes como:
 
 2. **El "Índice Capuccino":** Análisis del coste del café y comida fuera de casa como indicador de accesibilidad social.
 
-3. **Poder adquisitivo:** ¿Cómo varía la capacidad de ahorro según la moneda local y el coste del alquiler?
+3. **Poder adquisitivo:** ¿Cómo varía la capacidad de ahorro según la moneda local y el coste de vida?
 
 4. **Segmentación por regiones:** Identificación de las zonas geográficas con mayor inflación de precios en servicios esenciales.
 
