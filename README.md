@@ -177,6 +177,5 @@ Muestra de variables y resultados del dataset (.src/data/digital-nomad-index-202
 4 | Spain | 89 | 88 | 80 | 92 | 92 | 94 | 24% | 183 days/year |
 | ------------ | 
 5 | Thailand | 88 | 85 | 95 | 80 | 90 | 88 | 0-35% | 183 days/year |
-| ------------ | 
 
 ### 🎯 Principales conclusiones: resumen de hallazgos clave
