@@ -24,35 +24,14 @@ Este repositorio contiene un Análisis Exploratorio de Datos (EDA) exhaustivo so
 
 El objetivo es identificar ciudades y países que ofrecen el mejor equilibrio entre calidad de vida y asequibilidad para profesionales remotos. En un mundo donde la oficina es cualquier lugar con Wi-Fi, entender las métricas de gasto mensual (vivienda, alimentación, transporte y servicios) es crucial para la toma de decisiones estratégicas de movilidad.
 
-### 📊 Sobre los datasets
+### 📊 Sobre el dataset
 
-Los datos utilizados con fuente primaria provienen del dataset Cost of Living, en [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data), que recopila información detallada sobre los precios de consumo en miles de ciudades de todo el mundo.
+Los datos fuente provienen de [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data), que recopila información detallada sobre los precios de consumo en miles de ciudades de todo el mundo. El dataset incluye:
+- Precios de alquiler y servicios básicos.
+- Costes de alimentación (restaurantes y mercados).
+- Gastos de transporte y ocio.
 
-El dataset incluye:
-- Precios relacionados con la vivienda: precio del alquiler y servicios básicos.
-- Coste de servicios básicos como alimentación y cesta de la compra. 
-- Coste de vida relacionados con el ocio: coste en restauración. 
-- Coste de la vida en utilities como calefacción, electricidad, agua, servicio de basuras...
-- Gastos en transporte público y movilidad.
-
-Inicialmente puede ser un único reporsitorio de datos aunque valoramos ampliarlos con más fuentes y crear un repositorio más amplio que ayude a resolver las preguntas clave de negocio. 
-
-Entre ellos valoraremos los siguientes:
-
-·[Movingto](https://www.movingto.com/digital-nomad-index) recopila informacion sobre Top Countries for Digital Nomads 2025, a los cuales solo detallan un ranking de 40 países. 
-
-El dataset incluye:
-- Internet Speed.
-- Costo de vida.
-- Puntuación de seguridad.
-- "Visa Ease" es básicamente una puntuación de qué tan fácil es para un nómada digital quedarse legalmente en el país.
-- Calidad de vida.
-- Impuestos.
-
-·[Circleloop](https://www.circleloop.com/nomadindex/?utm_source) Estos dan un “ranking” rápido así, siendo que la informacion que nos serìa de utilidad es:
-- Broadband Cost: coste del plan de internet fijo (suele ser precio mensual promedio; en la tabla aparece con moneda £/€ según el sitio).
-- Monthly Rent: renta mensual típica (normalmente un promedio/estimación de alquiler)
-- Remote Jobs Searches, (generalmente un indicador de interés/demanda)
+Inicialmente puede ser un único reporsitorio de datos aunque valoramos ampliarlos con más fuentes y crear un repositorio más amplio que ayude a resolver las preguntas clave de negocio. Entre ellos valoramos este de [Movingto](https://www.movingto.com/digital-nomad-index).
 
 ### 🚀 Preguntas clave a responder
 
@@ -93,7 +72,7 @@ La carpeta src/ contiene a su vez:
 
 ### 🎲 Descripción de las variables del dataset
 
-Variables dataset (./src/data/cost-of-living.csv) / [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data)
+Variables dataset Cost of Livin (./src/data/cost-of-living.csv) / [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data)
 
 | Columna      | Descripción                                                                                                        |
 | ------------ | ------------------------------------------------------------------------------------------------------------------ |
@@ -155,7 +134,15 @@ Variables dataset (./src/data/cost-of-living.csv) / [Kaggle](https://www.kaggle.
 | x54          | Salario mensual neto medio (después de impuestos) (USD)                                                            |
 | x55          | Tipo de interés hipotecario anual (%), fijo a 20 años                                                              |
 | data_quality | 0 si Numbeo considera que se necesitan más colaboradores para mejorar la calidad de los datos; 1 en caso contrario |
-                                                             |
 
+Muestra de variables y resultados del dataset (.src/data/digital-nomad-index-2024.csv) en [Movingto](https://www.movingto.com/digital-nomad-index). 
+
+| Rank | Country | Overall Score | Internet Speed | Cost of Living | Safety | Visa Ease | Quality of Life | Taxes | Tax-free Period |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Portugal | 92 | 90 | 85 | 95 | 95 | 95 | NHR | 20% | 10 years |
+| 2 | Estonia | 91 | 95 | 75 | 90 | 98 | 92 | 0-20% | 183days/year |
+| 3 | Georgia | 90 | 85 | 88 | 82 | 100 | 80 | 1% | 183days/year |
+| 4 | Spain | 89 | 88 | 80 | 92 | 92 | 94 | 24% | 183 days/year |
+| 5 | Thailand | 88 | 85 | 95 | 80 | 90 | 88 | 0-35% | 183 days/year |
 
 ### 🎯 Principales conclusiones: resumen de hallazgos clave
