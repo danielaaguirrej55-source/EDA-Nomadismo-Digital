@@ -1,6 +1,6 @@
 ![Proyecto EDA: Nomadismo digital y coste de vida](./src/img/EDA-nomadismo-digital.jpg)
 
-## 🌍 Nómadas digitales: análisis sobre el coste de vida
+## 🌍 Nomadismo digital: análisis sobre el coste de vida
 
 *Este proyecto se encuentra actualmente en fase de pensamiento.*
 
@@ -22,11 +22,11 @@
 
 Este repositorio contiene un Análisis Exploratorio de Datos (EDA) exhaustivo sobre el conjunto de datos **Global Cost of Living**, con un enfoque específico en el fenómeno del **Nomadismo Digital**. 
 
-El objetivo es identificar ciudades y países que ofrecen el mejor equilibrio entre calidad de vida y asequibilidad para profesionales remotos. En un mundo donde la oficina es cualquier lugar con Wi-Fi, entender las métricas de gasto mensual (vivienda, alimentación, transporte) es crucial para la toma de decisiones estratégicas de movilidad.
+El objetivo es identificar ciudades y países que ofrecen el mejor equilibrio entre calidad de vida y asequibilidad para profesionales remotos. En un mundo donde la oficina es cualquier lugar con Wi-Fi, entender las métricas de gasto mensual (vivienda, alimentación, transporte y servicios) es crucial para la toma de decisiones estratégicas de movilidad.
 
 ### 📊 Sobre los datasets
 
-· Los datos utilizados con fuente primaria provienen del dataset Cost of Living, en [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data), que recopila información detallada sobre los precios de consumo en miles de ciudades de todo el mundo.
+Los datos utilizados con fuente primaria provienen del dataset Cost of Living, en [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data), que recopila información detallada sobre los precios de consumo en miles de ciudades de todo el mundo.
 
 El dataset incluye:
 
@@ -53,7 +53,7 @@ El dataset incluye:
 - Calidad de vida.
 - Impuestos.
 
-· [Circleloop](https://www.circleloop.com/nomadindex/?utm_source). Este dataset da un “ranking” rápido con algunas variables interesantes también. 
+· [Circleloop](https://www.circleloop.com/nomadindex/). Este dataset da un “ranking” rápido con algunas variables interesantes también.
 
 El conjunto de datos incluye:
 
@@ -69,7 +69,7 @@ A través de este EDA, buscamos resolver interrogantes como:
 
 2. **El "Índice Capuccino":** Análisis del coste del café y comida fuera de casa como indicador de accesibilidad social.
 
-3. **Poder adquisitivo:** ¿Cómo varía la capacidad de ahorro según la moneda local y el coste del alquiler?
+3. **Poder adquisitivo:** ¿Cómo varía la capacidad de ahorro según la moneda local y el coste de vida?
 
 4. **Segmentación por regiones:** Identificación de las zonas geográficas con mayor inflación de precios en servicios esenciales.
 
