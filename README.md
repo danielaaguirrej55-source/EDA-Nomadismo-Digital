@@ -165,12 +165,33 @@ Variables dataset Cost of Livin (./src/data/cost-of-living.csv) / [Kaggle](https
 
 Muestra de variables y resultados del dataset (.src/data/digital-nomad-index-2024.csv) en [Movingto](https://www.movingto.com/digital-nomad-index). 
 
-| Rank | Country | Overall Score | Internet Speed | Cost of Living | Safety | Visa Ease | Quality of Life | Taxes | Tax-free Period |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Portugal | 92 | 90 | 85 | 95 | 95 | 95 | NHR | 20% | 10 years |
-| 2 | Estonia | 91 | 95 | 75 | 90 | 98 | 92 | 0-20% | 183days/year |
-| 3 | Georgia | 90 | 85 | 88 | 82 | 100 | 80 | 1% | 183days/year |
-| 4 | Spain | 89 | 88 | 80 | 92 | 92 | 94 | 24% | 183 days/year |
-| 5 | Thailand | 88 | 85 | 95 | 80 | 90 | 88 | 0-35% | 183 days/year |
+| Rank           | Country        | Overall  | Internet Speed | Cost of Living | Safety   | Visa Ease  | Quality of Life | Taxes    | Tax-free Period |    
+| -------------- | -------------- | -------- | -------------- | -------------  | -------- | ---------- | --------------- | -------- | --------------- |
+| 1              | Portugal       | 92       | 90             | 85             | 95       | 95         | 95              | NHR 20%  | 10 years        |
+| 2              | Estonia        | 91       | 95             | 75             | 90       | 98         | 92              | 0-20%    | 183 days/year   |
+| 3              | Georgia        | 90       | 85             | 88             | 82       | 100        | 80              | 1%       | 183 days/year   |
+| 4              | Spain          | 89       | 88             | 80             | 92       | 92         | 94              | 24%      | 183 days/year   |
+| 5              | Thailand       | 88       | 85             | 95             | 80       | 90         | 88              | 0-35%    | 183 days/year   |
+| 6              | México         | 87       | 82             | 90             | 75       | 94         | 86              | 1.92-35% | 183 days/year   |
+| 7              | Czech Republic | 86       | 87             | 78             | 88       | 85         | 90              | 15%      | 183 days/year   |
+| 8              | Malaysia       | 85       | 80             | 92             | 85       | 90         | 85              | 0-30%    | 182 days/year   |
+| 9              | Croatia        | 84       | 76             | 88             | 88       | 89         |                 | 24%      | 1 year          |  
+| 10             | Costa Rica     | 83       | 79             | 85             | 80       | 90         | 88              | 0-25%    | 183 days/year   |
+
+
+Muestra de variables y resultados del dataset (.src/data/digital-nomad-index-2024.csv) en [Circleloop](https://www.circleloop.com/nomadindex/). 
+
+| #              | Country        | Broadband Speed | Mobile Speed | Broadband Cost | Monthly Rent | Working Holidays Visa | Happiness Index | Migrant Population % | Remote Jobs Searches | Digital Nomad |   
+| -------------- | -------------- | --------------- | ------------ | -------------- | ------------ | --------------------- | --------------- | -------------------- | -------------------- | ------------- |
+| 1              | Canada         | 149.35          | 84.54        | £28.24         | £827         | True                  | 7.23            | 21.3                 | 83900                | 74.35         |
+| 2              | UK             | 76.49           | 41.72        | £28.93         | £808         | True                  | 7.17            | 14.1                 | 68400                | 63.43         |
+| 3              | Romania        | 188.55          | 41.48        | £6.6           | £283         | True                  | 6.12            | 2.4                  | 10980                | 62.28         |
+| 4              | Sweden         | 158.73          | 56.64        | £32.08         | £771         | True                  | 7.35            | 20                   | 3490                 | 61.54         |
+| 5              | Denmark        | 179.81          | 66.68        | £39.07         | £923         | True                  | 7.65            | 12.5                 | 1080                 | 61.49         |
+| 6              | France         | 177.93          | 50.45        | £22.53         | £660         | True                  | 6.66            | 12.8                 | 5360                 | 60.80         |
+| 7              | Netherlands    | 125.82          | 88.13        | £34.37         | £1056        | True                  | 7.45            | 13.4                 | 3440                 | 60.27         |
+| 8              | Australia      | 58.52           | 88.35        | £39.16         | £997         | True                  | 7.22            | 30                   | 17600                | 60.16         |
+| 9              | Switzerland    | 186.40          | 73.85        | £58.40         | £1345        | True                  | 7.56            | 29.9                 | 3840                 | 60.15         |
+| 10             | Germani        | 120.13          | 49.67        | £23.28         | £718         | True                  | 7.08            | 15.7                 | 12720                | 60            |
 
 ### 🎯 Principales conclusiones: resumen de hallazgos clave
