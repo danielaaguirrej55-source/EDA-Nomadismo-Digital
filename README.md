@@ -98,9 +98,9 @@ La carpeta src/ contiene a su vez:
 
 ---
 
-### 🎲 Descripción de las variables del dataset
+### 🎲 Descripción de las variables de los datasets
 
-Variables dataset Cost of Livin (./src/data/cost-of-living.csv) / [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data)
+Variables dataset Cost of Living (./src/data/cost-of-living.csv) / [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data)
 
 | Columna      | Descripción                                                                                                        |
 | ------------ | ------------------------------------------------------------------------------------------------------------------ |
