@@ -1,0 +1,57 @@
+original_name,var_name,cost_type
+x1,meal_inexpensive_restaurant,Restaurantes y bebidas
+x2,meal_midrange_restaurant_2p,Restaurantes y bebidas
+x3,mcmeal_fastfood,Restaurantes y bebidas
+x4,beer_domestic_restaurant_0_5l,Restaurantes y bebidas
+x5,beer_imported_restaurant_0_33l,Restaurantes y bebidas
+x6,cappuccino_restaurant,Restaurantes y bebidas
+x7,soda_restaurant_0_33l,Restaurantes y bebidas
+x8,water_restaurant_0_33l,Restaurantes y bebidas
+x9,milk_1l,Supermercado – alimentación básica
+x10,bread_white_500g,Supermercado – alimentación básica
+x11,rice_white_1kg,Supermercado – alimentación básica
+x12,eggs_12,Supermercado – alimentación básica
+x13,cheese_local_1kg,Supermercado – alimentación básica
+x14,chicken_fillet_1kg,Supermercado – alimentación básica
+x15,beef_1kg,Supermercado – alimentación básica
+x16,apples_1kg,Supermercado – alimentación básica
+x17,bananas_1kg,Supermercado – alimentación básica
+x18,oranges_1kg,Supermercado – alimentación básica
+x19,tomatoes_1kg,Supermercado – alimentación básica
+x20,potatoes_1kg,Supermercado – alimentación básica
+x21,onions_1kg,Supermercado – alimentación básica
+x22,lettuce_1unit,Supermercado – alimentación básica
+x23,water_1_5l_supermarket,Supermercado – bebidas y otros
+x24,wine_midrange_supermarket,Supermercado – bebidas y otros
+x25,beer_domestic_supermarket_0_5l,Supermercado – bebidas y otros
+x26,beer_imported_supermarket_0_33l,Supermercado – bebidas y otros
+x27,cigarettes_pack_marlboro,Supermercado – bebidas y otros
+x28,public_transport_ticket_one_way,Transporte
+x29,public_transport_monthly_pass,Transporte
+x30,taxi_start_fare,Transporte
+x31,taxi_per_km,Transporte
+x32,taxi_waiting_1h,Transporte
+x33,gasoline_1l,Transporte
+x34,car_vw_golf_new,Vehículos (compra)
+x35,car_toyota_corolla_new,Vehículos (compra)
+x36,utilities_85sqm,Vivienda y suministros
+x37,mobile_prepaid_1min,Vivienda y suministros
+x38,internet_60mbps_unlimited,Vivienda y suministros
+x39,gym_monthly_membership,Ocio y estilo de vida
+x40,tennis_court_1h_weekend,Ocio y estilo de vida
+x41,cinema_ticket,Ocio y estilo de vida
+x42,private_preschool_monthly,Educación y cuidado infantil
+x43,international_primary_school_yearly,Educación y cuidado infantil
+x44,jeans_levis_501,Ropa y calzado
+x45,summer_dress_chain_store,Ropa y calzado
+x46,nike_running_shoes,Ropa y calzado
+x47,leather_business_shoes,Ropa y calzado
+x48,rent_1br_city_center,Vivienda – alquiler y compra
+x49,rent_1br_outside_center,Vivienda – alquiler y compra
+x50,rent_3br_city_center,Vivienda – alquiler y compra
+x51,rent_3br_outside_center,Vivienda – alquiler y compra
+x52,price_sqm_city_center,Vivienda – alquiler y compra
+x53,price_sqm_outside_center,Vivienda – alquiler y compra
+x54,avg_net_salary,Economía y financiación
+x55,mortgage_interest_rate_20y,Economía y financiación
+data_quality,data_quality_flag,Calidad de los datos
