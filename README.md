@@ -102,12 +102,12 @@ La carpeta src/ contiene a su vez:
 
 Variables dataset Cost of Living (./src/data/cost-of-living.csv) / [Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data)
 
-Aquí introducimos elementos nuevos en el dataset: Nombre de la variable y tipo de coste. Son dos nuevas columnas esenciales para el EDA posterior. 
+El conjunto de datos original Cost of Living utiliza códigos de variables genéricos (x1–x55). Para mejorar la legibilidad, se utiliza un archivo CSV independiente (cost-of-living-vars-map.csv) para mapear las variables originales con nombres descriptivos y tipo de coste. Este mapa de variables se carga y aplica dentro de los cuadernos de análisis (por el momento, ETL_cost_living_juanfcia_draft), lo que garantiza una trazabilidad con los datos originales y además facilita el análisis posterior.
 
-| Columna      | Nombre de variable                  | Descripción                                                                                                        | Tipo de coste                      |
+| Columna      | Nombre de variable                  | Descripción de variable                                                                                            | Tipo de coste                      |
 | ------------ | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
-| city         | city                                | Nombre de la ciudad                                                                                                | Restaurantes y bebidas             |
-| country      | country                             | Nombre del país                                                                                                    | Restaurantes y bebidas             |
+| city         | city_name                           | Nombre de la ciudad                                                                                                |                                    |
+| country      | country_name                        | Nombre del país                                                                                                    |                                    |
 | x1           | meal_inexpensive_restaurant         | Comida en restaurante económico (USD)                                                                              | Restaurantes y bebidas             |
 | x2           | meal_midrange_restaurant_2p         | Comida para 2 personas en restaurante de gama media, tres platos (USD)                                             | Restaurantes y bebidas             |
 | x3           | mcmeal_fastfood	                 | Menú McMeal en McDonald’s (o menú equivalente) (USD)                                                               | Restaurantes y bebidas             |
