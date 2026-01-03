@@ -1,0 +1,41 @@
+rank,country,overall_score,internet_speed,cost_of_living,safety,visa_ease,quality_of_life,tax_free_period,tax_min,tax_max
+1,Portugal,92,90,85,95,95,95,10 years,20.0,20.0
+2,Estonia,91,95,75,90,98,92,183 days/year,0.0,20.0
+3,Georgia,90,85,88,82,100,80,183 days/year,1.0,1.0
+4,Spain,89,88,80,92,92,94,183 days/year,24.0,24.0
+5,Thailand,88,85,95,80,90,88,183 days/year,0.0,35.0
+6,Mexico,87,82,90,75,94,86,183 days/year,1.92,35.0
+7,Czech Republic,86,87,78,88,85,90,183 days/year,15.0,15.0
+8,Malaysia,85,80,92,85,90,85,182 days/year,0.0,30.0
+9,Croatia,84,84,76,88,88,89,1 year,24.0,24.0
+10,Costa Rica,83,79,85,80,90,88,183 days/year,0.0,25.0
+11,Germany,82,90,70,90,85,95,183 days/year,14.0,45.0
+12,Netherlands,81,92,65,90,80,95,183 days/year,30.0,52.0
+13,Indonesia,80,75,90,80,85,85,183 days/year,5.0,5.0
+14,Vietnam,79,80,95,75,80,80,183 days/year,20.0,20.0
+15,Singapore,78,95,50,95,75,95,183 days/year,0.0,22.0
+16,Canada,77,85,60,90,80,95,183 days/year,15.0,33.0
+17,Malta,76,85,75,85,90,85,183 days/year,15.0,15.0
+18,Greece,75,80,80,80,85,85,183 days/year,22.0,44.0
+19,Cyprus,74,80,75,85,85,85,183 days/year,0.0,35.0
+20,Uruguay,73,75,75,80,90,80,183 days/year,12.0,12.0
+21,Panama,72,75,80,75,90,80,183 days/year,0.0,0.0
+22,Chile,71,80,75,80,85,85,183 days/year,0.0,35.0
+23,Argentina,70,70,85,70,85,80,183 days/year,5.0,35.0
+24,Colombia,69,70,85,65,90,80,183 days/year,0.0,39.0
+25,Japan,68,90,50,95,70,95,183 days/year,5.0,45.0
+26,South Korea,67,95,60,90,75,90,183 days/year,6.0,45.0
+27,Taiwan,66,90,75,90,75,85,183 days/year,5.0,40.0
+28,United Arab Emirates,65,85,60,90,90,90,183 days/year,0.0,0.0
+29,Barbados,64,75,70,80,95,85,1 year,5.5,28.5
+30,Montenegro,63,75,80,75,90,80,183 days/year,9.0,11.0
+31,Hungary,62,80,80,75,80,80,183 days/year,15.0,15.0
+32,Romania,61,85,85,75,80,75,183 days/year,10.0,10.0
+33,Bulgaria,60,80,85,75,80,75,183 days/year,10.0,10.0
+34,Serbia,59,80,85,70,90,75,183 days/year,10.0,10.0
+35,Australia,58,85,55,90,75,95,183 days/year,0.0,45.0
+36,New Zealand,57,85,60,95,75,95,183 days/year,10.5,39.0
+37,Iceland,56,90,50,95,80,95,183 days/year,31.45,46.25
+38,Norway,55,90,50,95,80,95,183 days/year,22.0,38.4
+39,Finland,54,90,55,95,80,95,183 days/year,0.0,31.25
+40,Sweden,53,90,55,90,80,95,183 days/year,0.0,57.0
