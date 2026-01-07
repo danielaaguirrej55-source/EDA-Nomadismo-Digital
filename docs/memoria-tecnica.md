@@ -1,10 +1,9 @@
-# Memoria técnica — [Nomadismo Digital]
+## Memoria técnica [EDA-Nomadismo Digital]
 
-| Autor | LinkedIn | GitHub |
-|-------|----------|--------|
-| **Daniela A. Aguirre** | [LinkedIn](https://www.linkedin.com/in/alicia-aguirre-5b5a57188/) | [GitHub](https://github.com/danielaaguirrej55-source) |
-| **Juan F. Cía** | [LinkedIn](https://www.linkedin.com/in/juanfcia/) | [GitHub](https://github.com/juanfcia) |
-| **Alejandro Balaguer** | - | - |
+AUTORES: 
+**Daniela A. Aguirre** [LinkedIn](https://www.linkedin.com/in/alicia-aguirre-5b5a57188/)[GitHub]      (https://github.com/danielaaguirrej55-source)
+**Juan F. Cía** [LinkedIn](https://www.linkedin.com/in/juanfcia/) [GitHub](https://github.com/juanfcia)
+**Alejandro Balaguer** [LinkedIn] [GitHub]
 
 **Fecha:**  
 0?/01/2026
@@ -124,37 +123,94 @@ Al tratarse de un análisis exploratorio, las “pruebas” se enfocaron en vali
 
 ## 7. Resultados:
 
-Los resultados del EDA se presentan organizados según las preguntas iniciales del proyecto. Para ello, se compararon destinos por grupos de ranking (por ejemplo, destinos mejor posicionados frente a peor posicionados), se analizaron distribuciones y relaciones entre variables económicas y se revisaron casos atípicos (outliers).
+Los resultados del EDA se presentan organizados según las preguntas iniciales del proyecto. Para ello, se compararon destinos por grupos de ranking (por ejemplo, destinos mejor posicionados frente a peor posicionados), se analizaron distribuciones y relaciones entre variables económicas y se revisaron valores atípicos (outliers), se detectaron ciudades con problemas de gentrificaciòn.
 
 ### 7.1 ¿Son realmente más baratos los destinos mejor rankeados?
-La comparación por grupos sugiere que existen diferencias en el coste de vida entre destinos mejor y peor posicionados, aunque dichas diferencias no son uniformes para todos los rubros. En particular, **[mencionar si el coste total baja o no en el top]**.  
+La comparación por grupos sugiere que existen diferencias en el coste de vida entre destinos mejor y peor posicionados, aunque dichas diferencias no son uniformes para todos los rubros. El análisis establece los cuartiles (25% y 75%), la mediana y el percentil 90  
 **Evidencia:** [Figura/Tabla: comparación de coste total por grupos de ranking].
 
 ### 7.2 ¿El coste de vivienda es el principal factor diferenciador?
-Entre las variables analizadas, el coste de vivienda destaca por **[mayor diferencia entre grupos / mayor correlación / mayor dispersión]**, lo que indica que este componente tiene un peso importante en la viabilidad económica del destino.  
+Entre las variables analizadas, el coste de vivienda destacada por la hipótesis 4: El coste en vivienda no es relevante. Comer fuera o el gasto en la cesta sí. lo que indica que este componente tiene un peso importante en la viabilidad económica del destino.  
 **Evidencia:** [Figura: boxplot de alquiler por grupos] y/o [Tabla: ranking de variables por correlación].
 
 ### 7.3 ¿Existe coherencia entre salarios locales y precios esenciales?
-Al contrastar variables de ingresos (si están disponibles) con precios de productos/servicios esenciales, se observa **[patrón: coherencia parcial / baja coherencia / relación esperada]**. Esto sugiere que el ranking no depende únicamente del nivel salarial, sino también de la estructura de costes y de la relación entre ingresos y gasto básico.  
+Al contrastar variables de ingresos con precios de productos/servicios esenciales, se observa que los ciudadanos del 73,7% de las ciudades ingresan un salario promedio superior al gasto mensual y los ciudadanos del 26,3% de las ciudades ingresan un salario promedio inferior al gasto mensual. Esto sugiere que el ranking no depende únicamente del nivel salarial, sino también de la estructura de costes y de la relación entre ingresos y gasto básico.
+Análisis del gasto porcentual del salario promedio en vivienda:
+----------------------------------------------------------------------------------
+Situación óptima (gasto < 30%): 1591 ciudades (33.6%)
+Situación mejorables (gasto entre 30-50%): 2014 ciudades (42.5%)
+Situación arriesgada (gastos > 50%): 1137 ciudades (24.0%)
 **Evidencia:** [Figura: scatter salario vs coste] / [Figura: índices de poder adquisitivo].
 
 ### 7.4 ¿Hay “outliers” atractivos?
-Se identificaron destinos que combinan buen posicionamiento con costes moderados (outliers atractivos), lo cual puede representar oportunidades para perfiles con presupuesto limitado. Estos casos aparecen asociados a **[región/condiciones]**.  
-**Evidencia:** [Figura: scatter ranking vs coste con puntos destacados] + lista breve de ejemplos.
+Los diagramas de caja muestran valores atípicos en algunas variables, como el coste de vida mensual, el coste de productos básicos y el alquiler de vivienda. Sin embargo, en el caso de las variables más relevantes para los nómadas digitales, como la velocidad de conexión a internet y el índice de bienestar, no se identificaron outliers significativos.
+Además, en la validación de la hipótesis 7, se identificaron países que son outliers positivos en términos de menor coste mensual y mejor puntuación en el ranking de destinos para nómadas digitales. ​Los tres principales países en esta categoría son Rumanía, Hungría y Lituania.
 
 ### 7.5 ¿Qué tipo de gasto pesa más en la viabilidad del nomadismo digital?
-El análisis sugiere que los rubros con mayor impacto en la diferencia entre destinos son **[vivienda / coste total / otro]**, mientras que otros gastos muestran variación menor o menor capacidad explicativa.  
+El gasto en alimentación y la cesta básica tiene un mayor peso en la viabilidad del nomadismo digital, en comparación con el coste de la vivienda. Por otro lado, también se destaca que la relación calidad-precio de los productos y servicios (hipótesis 5) tiene una correlación positiva con la elección de los destinos, lo que indica que los nómadas digitales valoran más los lugares donde pueden obtener mejores condiciones por un menor coste mensual. 
 **Evidencia:** [Tabla/Figura: contribución o comparación de rubros].
 
-### 7.6 Resumen de respuestas
-1. **Más baratos en promedio:** [Sí/No/Depende] — [1 frase].
-2. **Vivienda como factor principal:** [Sí/No] — [1 frase].
-3. **Coherencia salarios-precios:** [Alta/Media/Baja] — [1 frase].
-4. **Outliers atractivos:** [Sí] — [menciona 1–3 destinos].
-5. **Gasto más determinante:** [vivienda/otro] — [1 frase].
+## 7.6 Resumen de respuestas
+1. **Países con mejor equilibrio gasto/ score (Hipotesis 7) :**Sí — En el top 10 (menor monthly_nomad_cost y mayor digital_nomad_score) destacan Rumanía, Hungría, Lituania, Tailandia, Letonia, Chile, Estonia, Brasil, Croacia y Rusia.
+   
+2. **Vivienda como factor principal:** El coste en vivienda no es relevante. Comer fuera o el gasto en la cesta sí
+   
+3. **Coherencia salarios-precios:** Media: Aunque en el 73,7% de ciudades el salario promedio supera el gasto mensual, en un 26,3% no lo hace, lo que indica que la relación ingresos–costes no es consistente y el ranking también depende de la estructura de costos.
+   
+4. **Outliers atractivos:** Los tres principales países en esta categoría son Rumanía, Hungría y Lituania.
+   
+5. **Gasto más determinante:** El gasto en alimentación y la cesta básica es el más determinante.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
+
 ## 8. Despliegue y uso
+8.1 Requisitos:
+-Python: 3.x
+-Librerías: pandas, numpy, matplotlib/seaborn.
+-(Opcional): Sistema operativo: Windows/macOS/Linux.
+
+8.2 Estructura del proyecto:
+-/docs/ → documentación del proyecto (memoria técnica, etc.)
+-/src/ → directorio principal del trabajo
+-/src/data/ → datasets/archivos de datos usados en el análisis
+-/src/img/ → imágenes (gráficas, capturas, recursos)
+-/src/notebooks/ → notebooks del proyecto (ETL, EDA y análisis final)
+-main_analisis_juanfcia_v1.ipynb → análisis principal
+-ETL_* → notebooks de ETL
+-EDA-* → notebooks de EDA (uni/bivariante)
+-variables_agregadas_* → preparación/agregación de variables
+-/src/utils/ → funciones auxiliares y utilidades reutilizables
+
+Crear entorno (opcional pero recomendado):
+-python -m venv venv
+-activar entorno
+
+Instalar dependencias:
+-pip install -r requirements.txt
+-Instalar librerías necesarias indicadas en el notebook
+
+8.4 Ejecución / Reproducción del análisis:
+-Abrir el notebook principal: notebooks/<nombre>.ipynb (pendiente)
+
+Ejecutar celdas en orden (Run All)
+
+Los resultados (tablas y visualizaciones) se generan en el propio notebook y/o se guardan en /outputs.
+
+8.5 Uso (qué puede hacer el usuario con el proyecto)
+
+Consultar el ranking de destinos para nómadas digitales según coste mensual y score
+
+Validar hipótesis (p. ej. vivienda como factor principal, coherencia salario-precios, outliers)
+
+Comparar países/ciudades filtrando por continente o métricas clave
+
+8.6 Limitaciones y consideraciones
+
+Los datos dependen de la fuente y pueden no estar actualizados
+
+El análisis refleja tendencias agregadas; no sustituye investigación local (visados, seguridad, etc.)
+
+Si me dices si tu entrega es solo notebook o también tienes scripts/requirements.txt, te lo ajusto a tu estructura real (sin inventar carpetas).
 
 ## 9. Gestión del proyecto
 
