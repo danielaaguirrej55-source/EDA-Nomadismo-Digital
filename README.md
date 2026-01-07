@@ -100,7 +100,7 @@ EDA-Nomadismo-Digital/
 ### Tecnologías utilizadas
 
 | Componente | Tecnología |
-| ---------- | ---------- |
+|------------|------------|
 | Lenguaje | Python 3.12+ |
 | Librerías | Pandas, NumPy |
 | Visualización | Matplotlib, Seaborn |
