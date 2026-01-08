@@ -56,21 +56,20 @@ El nomadismo digital ha crecido como alternativa laboral y de estilo de vida, pe
 ## 4. Diseño y arquitectura:
 El proyecto se estructura como un pipeline de análisis exploratorio:
 4.1. **Carga de datos** desde el archivo fuente del dataset:
--  ```bash
 -1) Clonar el repositorio
-git clone https://github.com/<usuario>/EDA-Nomadismo-Digital.git
-cd EDA-Nomadismo-Digital
+ git clone https://github.com/<usuario>/EDA-Nomadismo-Digital.git
+ cd EDA-Nomadismo-Digital
 
 4.2. Crear y activar entorno virtual
-python -m venv .venv
-source .venv/bin/activate      # Linux/Mac
-.venv\Scripts\activate         # Windows
+-python -m venv .venv
+-source .venv/bin/activate      # Linux/Mac
+--.venv\Scripts\activate         # Windows
 
 4.3. Instalar dependencias
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 4.5. Levantar Jupyter (opcional, si el análisis está en notebooks)
-jupyter lab
+-jupyter lab
 
 4.6. **Preparación**: limpieza, tratamiento de nulos, validaciones y variables derivadas.
   
@@ -86,7 +85,6 @@ jupyter lab
 | Circleloop Index | 85 países | 10 variables | [Circleloop](https://www.circleloop.com/nomadindex/) |
 | Movingto Index | 40 países | 10 variables | [Movingto](https://www.movingto.com/digital-nomad-index) |
 
-- 
 - `requirements.txt`: Entorno y dependencias:
 El proyecto se desarrolló en Python y las dependencias del entorno están definidas en `requirements.txt`, lo que permite reproducir el análisis instalando las librerías necesarias. Aunque el archivo incluye dependencias transitivas, para el EDA se utilizaron principalmente librerías de análisis y visualización de datos (p. ej., pandas/numpy y matplotlib/seaborn, además de Jupyter para la ejecución de notebooks).
 
@@ -272,7 +270,7 @@ Alcance y objetivo: se desarrolló un EDA para identificar qué características
 
 -Producto final (visualización): dashboard con filtros por continente/métricas y comparador de destinos, basado en las variables integradas en el merge. 
 
-En conclusión, el EDA indica que para destinos atractivos pesan más conectividad, bienestar y poder adquisitivo que ‘ser el más barato’; y la vivienda no fue el factor decisivo frente a otros gastos (H4 ❌)”  y proporciona una base cuantitativa para priorizar destinos según conectividad, bienestar y poder adquisitivo (y, como apoyo, estructura de gasto mensual y comidas fuera).
+-En conclusión, el EDA indica que para destinos atractivos pesan más conectividad, bienestar y poder adquisitivo que ‘ser el más barato’; y la vivienda no fue el factor decisivo frente a otros gastos (H4 ❌)”  y proporciona una base cuantitativa para priorizar destinos según conectividad, bienestar y poder adquisitivo (y, como apoyo, estructura de gasto mensual y comidas fuera).
 
 10.3 Consideraciones éticas y sostenibilidad del nomadismo digital (hallazgo adicional)
 
