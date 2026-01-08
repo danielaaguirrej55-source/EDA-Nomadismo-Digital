@@ -57,26 +57,26 @@ El nomadismo digital ha crecido como alternativa laboral y de estilo de vida, pe
 El proyecto se estructura como un pipeline de análisis exploratorio:
 4.1. **Carga de datos** desde el archivo fuente del dataset:
 -  ```bash
-   # 1) Clonar el repositorio
+-1) Clonar el repositorio
 git clone https://github.com/<usuario>/EDA-Nomadismo-Digital.git
 cd EDA-Nomadismo-Digital
 
-# 2) Crear y activar entorno virtual
+4.2. Crear y activar entorno virtual
 python -m venv .venv
 source .venv/bin/activate      # Linux/Mac
 .venv\Scripts\activate         # Windows
 
-# 3) Instalar dependencias
+4.3. Instalar dependencias
 pip install -r requirements.txt
 
-# 4) Levantar Jupyter (opcional, si el análisis está en notebooks)
+4.5. Levantar Jupyter (opcional, si el análisis está en notebooks)
 jupyter lab
 
-4.2. **Preparación**: limpieza, tratamiento de nulos, validaciones y variables derivadas.
+4.6. **Preparación**: limpieza, tratamiento de nulos, validaciones y variables derivadas.
   
-4.3. **EDA**: análisis descriptivo, segmentación por ranking y exploración de relaciones entre variables.
+4.7. **EDA**: análisis descriptivo, segmentación por ranking y exploración de relaciones entre variables.
    
-4.4. **Comunicación**: generación de visualizaciones y conclusiones (notebook + presentación).
+4.8. **Comunicación**: generación de visualizaciones y conclusiones (notebook + presentación).
 **Estructura del repositorio (referencial):**
 - `data/`: datasets originales utilizados:
 
@@ -97,7 +97,7 @@ El EDA se desarrolló en notebooks de Jupyter dentro de la carpeta `notebooks/`.
 
 **Archivos principales:**
 - `notebooks/[NOMBRE].ipynb`: (Cuando ya tengamos notebook final: renombrar a algo neutro)
-- ### Notebooks por fase
+- ## Notebooks por fase
 - **ETL / Preparación de datos:** notebooks encargados de limpiar, homogeneizar e integrar variables de coste de vida e índices.
 - **Variables agregadas:** notebooks donde se crean variables derivadas y métricas para el análisis.
 - **EDA univariante y bivariante:** notebooks con estadística descriptiva, comparaciones por grupos y relaciones entre variables.
@@ -127,15 +127,15 @@ Al tratarse de un análisis exploratorio, las “pruebas” se enfocaron en vali
 
 Los resultados del EDA se presentan organizados según las preguntas iniciales del proyecto. Para ello, se compararon destinos por grupos de ranking (por ejemplo, destinos mejor posicionados frente a peor posicionados), se analizaron distribuciones y relaciones entre variables económicas y se revisaron valores atípicos (outliers), se detectaron ciudades con problemas de gentrificaciòn.
 
-### 7.1 ¿Son realmente más baratos los destinos mejor rankeados?
+## 7.1 ¿Son realmente más baratos los destinos mejor rankeados?
 La comparación por grupos sugiere que existen diferencias en el coste de vida entre destinos mejor y peor posicionados, aunque dichas diferencias no son uniformes para todos los rubros. El análisis establece los cuartiles (25% y 75%), la mediana y el percentil 90  
 **Evidencia:** [Figura/Tabla: comparación de coste total por grupos de ranking].
 
-### 7.2 ¿El coste de vivienda es el principal factor diferenciador?
+## 7.2 ¿El coste de vivienda es el principal factor diferenciador?
 Entre las variables analizadas, el coste de vivienda destacada por la hipótesis 4: El coste en vivienda no es relevante. Comer fuera o el gasto en la cesta sí. lo que indica que este componente tiene un peso importante en la viabilidad económica del destino.  
 **Evidencia:** [Figura: boxplot de alquiler por grupos] y/o [Tabla: ranking de variables por correlación].
 
-### 7.3 ¿Existe coherencia entre salarios locales y precios esenciales?
+## 7.3 ¿Existe coherencia entre salarios locales y precios esenciales?
 Al contrastar variables de ingresos con precios de productos/servicios esenciales, se observa que los ciudadanos del 73,7% de las ciudades ingresan un salario promedio superior al gasto mensual y los ciudadanos del 26,3% de las ciudades ingresan un salario promedio inferior al gasto mensual. Esto sugiere que el ranking no depende únicamente del nivel salarial, sino también de la estructura de costes y de la relación entre ingresos y gasto básico.
 Análisis del gasto porcentual del salario promedio en vivienda:
 
@@ -145,13 +145,13 @@ Situación mejorables (gasto entre 30-50%): 2014 ciudades (42.5%)
 Situación arriesgada (gastos > 50%): 1137 ciudades (24.0%)
 **Evidencia:** [Figura: scatter salario vs coste] / [Figura: índices de poder adquisitivo].
 
-### 7.4 ¿Hay “outliers” atractivos?
+## 7.4 ¿Hay “outliers” atractivos?
 Los diagramas de caja muestran valores atípicos en algunas variables, como el coste de vida mensual, el coste de productos básicos y el alquiler de vivienda. Sin embargo, en el caso de las variables más relevantes para los nómadas digitales, como la velocidad de conexión a internet y el índice de bienestar, no se identificaron outliers significativos.
 Además, en la validación de la hipótesis 7, se identificaron países que son outliers positivos en términos de menor coste mensual y mejor puntuación en el ranking de destinos para nómadas digitales. ​Los tres principales países en esta categoría son Rumanía, Hungría y Lituania.
 Como “outliers negativos” (casos extremos de presión de vivienda):
 “Se identifican ciudades con valores extremos de esfuerzo de vivienda, que podrían distorsionar comparativas y requieren interpretación contextual.”
 
-### 7.5 ¿Qué tipo de gasto pesa más en la viabilidad del nomadismo digital?
+## 7.5 ¿Qué tipo de gasto pesa más en la viabilidad del nomadismo digital?
 El gasto en alimentación y la cesta básica tiene un mayor peso en la viabilidad del nomadismo digital, en comparación con el coste de la vivienda. Por otro lado, también se destaca que la relación calidad-precio de los productos y servicios (hipótesis 5) tiene una correlación positiva con la elección de los destinos, lo que indica que los nómadas digitales valoran más los lugares donde pueden obtener mejores condiciones por un menor coste mensual. 
 **Evidencia:** [Tabla/Figura: contribución o comparación de rubros].
 
@@ -218,8 +218,8 @@ Instalar dependencias:
 -Correlación ≠ causalidad: relaciones encontradas no implican causa-efecto; deben usarse como guía para priorizar variables, no como prueba definitiva. 
 
 -Cobertura incompleta: no todos los países/ciudades aparecen en todas las fuentes, por lo que algunos rankings o comparativas pueden tener muestras diferentes.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 9. Gestión del proyecto:
 
