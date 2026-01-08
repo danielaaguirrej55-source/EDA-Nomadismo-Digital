@@ -86,14 +86,17 @@ jupyter notebook main.ipynb
 
 ```
 EDA-Nomadismo-Digital/
-├── main.ipynb              # Notebook final del EDA (9 secciones)
-├── README.md               # Este documento
-├── requirements.txt        # Dependencias Python
+├── main.ipynb                     # Notebook final del EDA (9 secciones)
+├── EDA - Nomadismo digital.pdf    # PDF presentación del análisis final        
+├── README.md                      # Este documento
+├── requirements.txt               # Dependencias Python
+├── docs/
+    ├── memoria-tecnica.md         # Memoria técnica completa del EDA             
 └── src/
-    ├── data/               # Datasets (datasets en raw y limpios)
-    ├── img/                # Imágenes y visualizaciones
-    ├── notebooks/          # Notebooks de desarrollo y ETL
-    └── utils/              # Código python reutilizable
+    ├── data/                      # Datasets (datasets en raw y limpios)
+    ├── img/                       # Imágenes del proyecto
+    ├── notebooks/                 # Notebooks de desarrollo y ETL
+    └── utils/                     # Código python reutilizable
 ```
 ---
 
@@ -113,7 +116,7 @@ EDA-Nomadismo-Digital/
 | Autor | LinkedIn | GitHub |
 |-------|----------|--------|
 | **Daniela Aguirre** | [LinkedIn](https://www.linkedin.com/in/alicia-aguirre-5b5a57188/) | - |
-| **Alejandro Balaguer** | - | - |
+| **Alejandro Balaguer** | [LinkedIn](https://www.linkedin.com/in/alejandrobase/) | - |
 | **Juan F. Cía** | [LinkedIn](https://www.linkedin.com/in/juanfcia/) | [GitHub](https://github.com/juanfcia) |
 
 ---
