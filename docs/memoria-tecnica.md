@@ -1,12 +1,12 @@
 ## Memoria técnica [EDA-Nomadismo Digital]
 
-AUTORES: 
-**Daniela A. Aguirre** [LinkedIn](https://www.linkedin.com/in/alicia-aguirre-5b5a57188/)[GitHub]      (https://github.com/danielaaguirrej55-source)
-**Juan F. Cía** [LinkedIn](https://www.linkedin.com/in/juanfcia/) [GitHub](https://github.com/juanfcia)
-**Alejandro Balaguer** [LinkedIn] [GitHub]
+**AUTORES:**
+- **Juan F. Cía** — [LinkedIn](https://www.linkedin.com/in/juanfcia/) · [GitHub](https://github.com/juanfcia)
+- **Daniela A. Aguirre** — [LinkedIn](https://www.linkedin.com/in/alicia-aguirre-5b5a57188/) · [GitHub](https://github.com/danielaaguirrej55-source)
+- **Alejandro Balaguer** — [LinkedIn](https://www.linkedin.com/in/alejandrob.../) · 
 
-**Fecha:**  
-0?/01/2026
+**Fecha de entrega:**  
+09/01/2026
 
 **Repositorio:**  
 EDA-Nomadismo-Digital
@@ -21,10 +21,6 @@ Realizar un Análisis Exploratorio de Datos (EDA) para estudiar la relación ent
 Este proyecto realiza un Análisis Exploratorio de Datos (EDA) a nivel global para identificar qué variables económicas y de coste de vida diferencian a los destinos mejor posicionados para el nomadismo digital frente a los menos atractivos. El análisis se basa en un dataset de destinos internacionales que incluye un ranking de atractivo y métricas relacionadas con coste de vivienda, precios de bienes/servicios esenciales y, cuando aplica, indicadores de ingresos o salario.
 
 El trabajo consistió en la revisión y limpieza de los datasets [Numbeo/Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data) | [Circleloop](https://www.circleloop.com/nomadindex/) y [Movingto](https://www.movingto.com/digital-nomad-index) (tratamiento de valores faltantes, verificación de rangos y consistencia de unidades), la generación de estadísticos descriptivos y comparativas por grupos de ranking (por ejemplo: top vs bottom), y el estudio de relaciones entre variables mediante correlaciones y visualizaciones (distribuciones, boxplots, heatmaps de correlación y scatter y regplots multidimensionales.). Además, se exploraron posibles casos atípicos (“outliers”) que combinan coste moderado con alta valoración.
-
-Los resultados muestran que **[hallazgo 1]**, y que **[hallazgo 2]**. En particular, **[variable clave]** aparece como el factor con mayor capacidad para separar destinos altamente atractivos de los menos atractivos, mientras que **[otra variable]** presenta **[relación/efecto]**. Finalmente, se identificaron destinos que destacan por **[outlier: alta calidad/coste moderado]**, lo que sugiere oportunidades para perfiles de nómadas digitales con restricciones de presupuesto.
-
-En conclusión, el EDA indica que **[conclusión principal]** y proporciona una base cuantitativa para priorizar destinos según **[criterio: coste, vivienda, poder adquisitivo, etc.]**.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -61,16 +57,23 @@ El nomadismo digital ha crecido como alternativa laboral y de estilo de vida, pe
 El proyecto se estructura como un pipeline de análisis exploratorio:
 4.1. **Carga de datos** desde el archivo fuente del dataset:
 -  ```bash
-# Clonar repositorio
-git clone https://github.com/[usuario]/EDA-Nomadismo-Digital.git
+   # 1) Clonar el repositorio
+git clone https://github.com/<usuario>/EDA-Nomadismo-Digital.git
 cd EDA-Nomadismo-Digital
 
-4.2. **Preparación**: limpieza, tratamiento de nulos, validaciones y variables derivadas:
-   # Crear entorno virtual
+# 2) Crear y activar entorno virtual
 python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-.venv\Scripts\activate     # Windows
+source .venv/bin/activate      # Linux/Mac
+.venv\Scripts\activate         # Windows
 
+# 3) Instalar dependencias
+pip install -r requirements.txt
+
+# 4) Levantar Jupyter (opcional, si el análisis está en notebooks)
+jupyter lab
+
+4.2. **Preparación**: limpieza, tratamiento de nulos, validaciones y variables derivadas.
+  
 4.3. **EDA**: análisis descriptivo, segmentación por ranking y exploración de relaciones entre variables.
    
 4.4. **Comunicación**: generación de visualizaciones y conclusiones (notebook + presentación).
@@ -82,8 +85,7 @@ source .venv/bin/activate  # Linux/Mac
 | Cost of Living | 4.742 ciudades | 65 variables | [Numbeo/Kaggle](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living/data) |
 | Circleloop Index | 85 países | 10 variables | [Circleloop](https://www.circleloop.com/nomadindex/) |
 | Movingto Index | 40 países | 10 variables | [Movingto](https://www.movingto.com/digital-nomad-index) |
-- 
-- `img/`: imágenes/gráficas exportadas para documentación/presentación. (pendiente)
+
 - 
 - `requirements.txt`: Entorno y dependencias:
 El proyecto se desarrolló en Python y las dependencias del entorno están definidas en `requirements.txt`, lo que permite reproducir el análisis instalando las librerías necesarias. Aunque el archivo incluye dependencias transitivas, para el EDA se utilizaron principalmente librerías de análisis y visualización de datos (p. ej., pandas/numpy y matplotlib/seaborn, además de Jupyter para la ejecución de notebooks).
@@ -91,7 +93,7 @@ El proyecto se desarrolló en Python y las dependencias del entorno están defin
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 5. Implementación:
-El EDA se desarrolló en notebooks de Jupyter dentro de la carpeta `notebooks/`. El flujo de trabajo incluye: carga de los datasets, limpieza, análisis descriptivo, comparaciones por grupos del ranking, variables agregadas, visualizaciones y detección de outliers.
+El EDA se desarrolló en notebooks de Jupyter dentro de la carpeta `notebooks/`. El flujo de trabajo incluye: carga de los datasets, limpieza, análisis descriptivo, comparaciones por grupos del ranking, variables agregadas, visualizaciones y detección de outliers, EDA-bivariante, EDA-univariante, main-analisis, planteamiento-EDA.
 
 **Archivos principales:**
 - `notebooks/[NOMBRE].ipynb`: (Cuando ya tengamos notebook final: renombrar a algo neutro)
@@ -102,7 +104,7 @@ El EDA se desarrolló en notebooks de Jupyter dentro de la carpeta `notebooks/`.
 - **Notebook principal:** consolidación de resultados, visualizaciones finales y conclusiones.
  > Nota: aunque algunos archivos mantienen nombres individuales, el contenido final integra el trabajo del equipo.
   
-- `data/[NOMBRE]`: Datasets utilizados:
+-Datasets utilizados:
 - El análisis se realizó sobre el dataset descrito en el punto 1 y 4, tras un proceso de limpieza y preparación (ETL) documentado en los notebooks correspondientes.
 - 
 - `img/`: gráficas exportadas usadas en la presentación y documentación (pendiente)
@@ -136,6 +138,7 @@ Entre las variables analizadas, el coste de vivienda destacada por la hipótesis
 ### 7.3 ¿Existe coherencia entre salarios locales y precios esenciales?
 Al contrastar variables de ingresos con precios de productos/servicios esenciales, se observa que los ciudadanos del 73,7% de las ciudades ingresan un salario promedio superior al gasto mensual y los ciudadanos del 26,3% de las ciudades ingresan un salario promedio inferior al gasto mensual. Esto sugiere que el ranking no depende únicamente del nivel salarial, sino también de la estructura de costes y de la relación entre ingresos y gasto básico.
 Análisis del gasto porcentual del salario promedio en vivienda:
+
 ----------------------------------------------------------------------------------
 Situación óptima (gasto < 30%): 1591 ciudades (33.6%)
 Situación mejorables (gasto entre 30-50%): 2014 ciudades (42.5%)
@@ -145,6 +148,8 @@ Situación arriesgada (gastos > 50%): 1137 ciudades (24.0%)
 ### 7.4 ¿Hay “outliers” atractivos?
 Los diagramas de caja muestran valores atípicos en algunas variables, como el coste de vida mensual, el coste de productos básicos y el alquiler de vivienda. Sin embargo, en el caso de las variables más relevantes para los nómadas digitales, como la velocidad de conexión a internet y el índice de bienestar, no se identificaron outliers significativos.
 Además, en la validación de la hipótesis 7, se identificaron países que son outliers positivos en términos de menor coste mensual y mejor puntuación en el ranking de destinos para nómadas digitales. ​Los tres principales países en esta categoría son Rumanía, Hungría y Lituania.
+Como “outliers negativos” (casos extremos de presión de vivienda):
+“Se identifican ciudades con valores extremos de esfuerzo de vivienda, que podrían distorsionar comparativas y requieren interpretación contextual.”
 
 ### 7.5 ¿Qué tipo de gasto pesa más en la viabilidad del nomadismo digital?
 El gasto en alimentación y la cesta básica tiene un mayor peso en la viabilidad del nomadismo digital, en comparación con el coste de la vivienda. Por otro lado, también se destaca que la relación calidad-precio de los productos y servicios (hipótesis 5) tiene una correlación positiva con la elección de los destinos, lo que indica que los nómadas digitales valoran más los lugares donde pueden obtener mejores condiciones por un menor coste mensual. 
@@ -161,7 +166,7 @@ El gasto en alimentación y la cesta básica tiene un mayor peso en la viabilida
    
 5. **Gasto más determinante:** El gasto en alimentación y la cesta básica es el más determinante.
 
--------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 8. Despliegue y uso
 8.1 Requisitos:
@@ -189,29 +194,92 @@ Instalar dependencias:
 -pip install -r requirements.txt
 -Instalar librerías necesarias indicadas en el notebook
 
-8.4 Ejecución / Reproducción del análisis:
--Abrir el notebook principal: notebooks/<nombre>.ipynb (pendiente)
+8.3 Ejecución / Reproducción del análisis:
+-Abrir el notebook principal: src/notebooks/main_analisis.ipynb
 
-Ejecutar celdas en orden (Run All)
+-Los resultados (tablas y visualizaciones) se generan en el propio notebook.
 
-Los resultados (tablas y visualizaciones) se generan en el propio notebook y/o se guardan en /outputs.
+8.4 Uso: ¿qué puede hacer el usuario con el proyecto?
+-Consultar un ranking de destinos para nómadas digitales a nivel país (y, cuando aplique, ciudad) en función de coste mensual estimado y puntuación/score de atractivo para nómadas digitales. [The_Bridge] EDA - Nomadismo digital
 
-8.5 Uso (qué puede hacer el usuario con el proyecto)
+-Analizar relaciones entre variables clave (coste de vida, poder adquisitivo, conectividad, bienestar, visados, etc.) mediante comparativas y correlaciones para entender qué factores están más asociados al score final.
 
-Consultar el ranking de destinos para nómadas digitales según coste mensual y score
+-Validar hipótesis del análisis (p. ej., peso de la vivienda frente a otros costes, coherencia salarios–precios, papel de la conectividad, detección de outliers y países “mejor equilibrio coste/score”). 
 
-Validar hipótesis (p. ej. vivienda como factor principal, coherencia salario-precios, outliers)
+-Comparar países/ciudades con filtros por continente o por métricas (coste mensual, alquiler, cesta básica, velocidad de internet, índice de felicidad, seguridad, facilidad de visa), facilitando la toma de decisiones según prioridades del usuario. 
 
-Comparar países/ciudades filtrando por continente o métricas clave
+8.5 Limitaciones y consideraciones:
+-Dependencia de fuentes externas: los valores provienen de datasets de terceros y pueden contener errores, sesgos o desactualización respecto a la situación real del país/ciudad. 
 
-8.6 Limitaciones y consideraciones
+-Resultados agregados: el análisis trabaja con tendencias globales/medias; no sustituye una investigación local (barrios, estacionalidad, seguridad real por zona, requisitos de visado vigentes, fiscalidad específica, etc.). 
 
-Los datos dependen de la fuente y pueden no estar actualizados
+-Comparabilidad limitada entre países/ciudades: diferencias en metodología de recopilación, divisa, inflación o coste real para perfiles concretos pueden afectar la interpretación de “barato/caro”. 
 
-El análisis refleja tendencias agregadas; no sustituye investigación local (visados, seguridad, etc.)
+-Correlación ≠ causalidad: relaciones encontradas no implican causa-efecto; deben usarse como guía para priorizar variables, no como prueba definitiva. 
 
-Si me dices si tu entrega es solo notebook o también tienes scripts/requirements.txt, te lo ajusto a tu estructura real (sin inventar carpetas).
+-Cobertura incompleta: no todos los países/ciudades aparecen en todas las fuentes, por lo que algunos rankings o comparativas pueden tener muestras diferentes.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 9. Gestión del proyecto
 
-## 10. Conclusiones y trabajo futuro
+## 9. Gestión del proyecto:
+
+Alcance y objetivo: se desarrolló un EDA para identificar qué características económicas y de coste de vida diferencian los destinos mejor posicionados para el nomadismo digital frente a los menos atractivos. 
+
+-Enfoque por hipótesis: el análisis se planificó y ejecutó alrededor de 9 hipótesis (3 primarias y 6 secundarias) sobre coste, salarios/poder adquisitivo, conectividad, vivienda, “más por menos”, bienestar, outliers, seguridad y facilidad de visado. 
+
+-Fases de trabajo (workflow)
+
+-Contexto e hipótesis (definición de preguntas y variables objetivo). 
+
+-Entendimiento de datos: revisión de datasets y variables (Cost of Living + índices de nomadismo). 
+
+-EDA univariante: distribuciones, percentiles y outliers en variables relevantes (vivienda, alimentación, transporte, salarios, etc.). 
+
+-Preparación e integración: merge de datasets para análisis bivariante y validación de hipótesis con variables agregadas y scores. 
+
+-EDA bivariante + validación: matriz de correlación y visualizaciones tipo scatter/regresión para contrastar hipótesis vs. digital_nomad_score. 
+
+-Síntesis y comunicación: resumen de correlaciones y estado (✅/❌) de cada hipótesis. 
+
+-Organización del equipo y entregables: trabajo en equipo (Team 4: Daniela Aguirre, Alejandro Balaguer y Juan F. Cía) y entrega en formato presentación con resultados, visualizaciones y conclusiones. 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 10. Conclusiones y trabajo futuro:
+-La conectividad es el factor más asociado al score: broadband_speed_mbps presenta la correlación más alta con el score, seguida por bienestar (happiness_index) y variables de gasto (comidas fuera y gasto mensual). 
+
+-No gana “el destino más barato”: se rechaza la hipótesis de que menor coste mensual implique mejor posición en el ránking (H1 ❌). 
+
+-Sí importa la capacidad económica local: a mayor poder adquisitivo, mejor valoración del destino (H2 ✅). 
+
+-La vivienda no resultó ser el factor decisivo frente a otras partidas: se rechaza que el coste de vivienda sea “lo más relevante” por encima de alimentación/cesta (H4 ❌). 
+
+-Mejor equilibrio coste/score detectado en destinos concretos: el análisis identifica países con buen balance “menos coste mensual + buen score” (p. ej., Rumanía, Hungría, Lituania, Tailandia, etc.). 
+
+-Seguridad vs. visado: la seguridad no aparece como clave para el ránking (H8 ❌), mientras que la facilidad para conseguir visa sí (H9 ✅). 
+
+
+10.2 Trabajo futuro (mejoras propuestas):
+-Actualización y robustez de datos: incorporar refresh periódico de fuentes y control de calidad (valores faltantes, outliers, criterios homogéneos) para mitigar desactualización.
+
+-Mayor granularidad (ciudad/barrio): extender el análisis a nivel ciudad y, si fuese posible, a nivel intraurbano (barrios), para decisiones más accionables.
+
+-Modelo de decisión multivariable: construir un índice ponderado configurable por perfil (prioriza coste, conectividad, seguridad, visado, bienestar) y comparar resultados por pesos.
+
+-Segmentación de destinos: clustering para identificar “tipos” de destinos (barato+rápido internet, caro+alta calidad de vida, etc.).
+
+-Producto final (visualización): dashboard con filtros por continente/métricas y comparador de destinos, basado en las variables integradas en el merge. 
+
+En conclusión, el EDA indica que para destinos atractivos pesan más conectividad, bienestar y poder adquisitivo que ‘ser el más barato’; y la vivienda no fue el factor decisivo frente a otros gastos (H4 ❌)”  y proporciona una base cuantitativa para priorizar destinos según conectividad, bienestar y poder adquisitivo (y, como apoyo, estructura de gasto mensual y comidas fuera).
+
+10.3 Consideraciones éticas y sostenibilidad del nomadismo digital (hallazgo adicional)
+
+Uno de los aportes complementarios del estudio no se centra únicamente en la conveniencia para el nómada digital, sino en los posibles efectos socioeconómicos sobre las comunidades receptoras. Para ello, se propone una métrica exploratoria de Responsabilidad Social, denominada Housing–Salary Ratio (HSR), definida como la relación entre el alquiler mensual estimado y el salario medio local.
+
+Los resultados muestran la existencia de destinos en los que el alquiler mensual asociado a perfiles internacionales puede representar valores extremadamente altos respecto al salario local (por encima del 100% e incluso superiores en casos puntuales), lo que sugiere escenarios de alta presión de asequibilidad. En este tipo de contextos, la llegada de población con ingresos significativamente mayores puede intensificar dinámicas de segmentación de mercado y contribuir a procesos asociados a gentrificación o desplazamiento residencial.
+
+Como implicación práctica, se recomienda que cualquier herramienta de recomendación de destinos (plataforma, informe o consultoría) incorpore esta señal como un indicador de riesgo social: (i) advertir al usuario cuando el HSR supere determinados umbrales, y/o (ii) desaconsejar activamente destinos con ratios especialmente elevados, priorizando criterios de sostenibilidad y equilibrio con la economía local.
+
+Este enfoque abre líneas futuras de trabajo, como el diseño de un sistema de alertas y modelos predictivos (p. ej., machine learning) para anticipar presión de vivienda e identificar destinos con mejor equilibrio entre atractivo para el nómada y sostenibilidad social.
